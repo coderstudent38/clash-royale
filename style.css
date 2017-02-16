@@ -1,0 +1,92 @@
+
+        
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+        
+html, body {
+    margin:0;
+    height:100%;
+    padding:0;
+    font-family:'Belleza', sans-serif;
+}
+.home-page {
+    background:url("http://vignette3.wikia.nocookie.net/clashroyale/images/5/50/Wiki-background/revision/latest?cb=20160105005708")no-repeat center center fixed;
+    text-align:center;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Belleza', sans-serif;
+  height:100%;
+}
+
+.home-header {
+    color:blue;
+    font-size:200px;
+    margin: 0;
+}
+
+.h1-home {
+    margin: 0;
+    color:blue;
+    font-size:200px;
+}
+
+.h3-home {
+    color:blue;
+    font-size:50px;
+}
+
+.home-tagline {
+    color:blue;
+    font-size:25px;
+}
+button {
+    font-family:'Belleza', sans-serif;
+    color:cyan;
+    border:3px solid blue;
+    background:black;
+    padding:10px 35px 10px 35px;
+    font-size:20px;
+}
+button:hover {
+    color:black;
+    border:3px solid blue;
+    background:cyan;
+    padding:10px 35px 10px 35px;
+    font-size:20px;
+}
+
+/* INFO PAGE */
+.info-page{
+    background:url("https://www.sweetsweetsoft.com/wp-content/uploads/2016/02/background-clash-royale.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Belleza', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.pic {
+    height:25vmax;
+    width:25vmax;
+    margin:1%;
+}
+
+#p1 {
+    background:turquoise;
+    background-size:cover;
+}
+
+#p2 {
+    background:turquoise;
+    background-size:cover;
+}
+
+#p3 {
+    background:turquoise;
+    background-size:cover;
+}

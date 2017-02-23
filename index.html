@@ -3,9 +3,8 @@
 <head>
     <title>Clash Royale</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-@import url('https://fonts.googleapis.com/css?family=Belleza');
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Belleza');
         
 html, body {
     margin:0;
@@ -25,44 +24,31 @@ html, body {
 }
 
 .home-header {
-    color:cyan;
+    color:white;
     margin: 0;
 }
 
 .h1-home {
     margin: 0;
-    color:cyan;
+    color:white;
     font-size:10vmax;
 }
 
 .h3-home {
-    color:cyan;
+    color:white;
     font-size:2.5vmax;
 }
 
 .home-tagline {
-    color:cyan;
+    color:white;
     font-size:25px;
 }
-button {
-    font-family:'Belleza', sans-serif;
-    color:cyan;
-    border:3px solid blue;
-    background:black;
-    padding:10px 35px 10px 35px;
-    font-size:20px;
-}
-button:hover {
-    color:black;
-    border:3px solid blue;
-    background:cyan;
-    padding:10px 35px 10px 35px;
-    font-size:20px;
-}
+
+
 
 /* INFO PAGE */
 .info-page{
-    background:url("https://www.sweetsweetsoft.com/wp-content/uploads/2016/02/background-clash-royale.jpg")no-repeat center center fixed;
+    background:url("http://vignette3.wikia.nocookie.net/clashroyale/images/5/50/Wiki-background/revision/latest?cb=20160105005708")no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,32 +73,74 @@ button:hover {
 }
 
 #p1 {
-    background:cyan;
+    background:blue;
     background-size:cover;
+    font-size:2.5vmax;
+    color:black;
 }
 
 #p2 {
-    background:cyan;
+    background:blue;
     background-size:cover;
+    font-size:2.5vmax;
+    color:black;
 }
 
 #p3 {
-    background:cyan;
+    background:blue;
     background-size:cover;
+    font-size:2.5vmax;
+    color:black;
+}
+
+#p4 {
+    background:blue;
+    background-size:cover;
+    font-size:2.5vmax;
+    color:black;
 }
 
 .info-page-header {
     font-size:10vmax;
-    color:cyan;
+    color:white;
+    font-weight:bold;
 }
 
 .info-page-introduction {
     font-size:2.5vmax;
-    color:cyan;
+    color:white;
+    font-weight:bold;
 }
 
+@keyframes color-change {
+    0% {background-color: red;}
+    12% {background-color:orange;}
+    25% {background-color:yellow;}
+    37% {background-color:#ADFF2F;}
+    50% {background-color:green;}
+    62% {background-color:teal;}
+    75% {background-color:blue;}
+    87% {background-color:purple;}
+    100% {background-color:red;}
+    
+}
 
-    </style>
+.button {
+  font-family:'Belleza', sans-serif;
+  color:black;
+  width: 10vmax;
+  height: 2.5vmax;
+  background-color: red;
+  -webkit-animation-name: color-change; 
+  -webkit-animation-duration: 60s;
+  animation-name: color-change;
+  animation-duration: 60s;
+  animation-iteration-count:  infinite;
+  border:black;
+  padding:1vmax 35px 1vmax 35px;
+}
+
+</style>
 </head>    
 <body>
 <!-- HOMEPAGE-->
@@ -121,32 +149,37 @@ button:hover {
         <h1 class="h1-home">Clash Royale</h1> 
     </div>
     <div class="home-tagline">
-        <h3 class="h3-home">"Clash Royale is really fun! You should try it!"
-                              - Nickatnyte (Famous Youtuber)</h3>
+        <h3 class="h3-home">"Clash Royale is a... super sick game!"
+                              - GAMINGwithMOLT (Famous Youtuber)</h3>
     </div>
     <div class="home-button">
-        <button>Learn more about this game...</button>
+        <a href="#info-page">
+        <button class="button">Learn more about this game...</button>
+        </a>
     </div>
 </div>
 <!-- END HOMEPAGE-->
 
 <!-- INFO PAGE -->
 <a name="info-page"><div class="info-page"></a>
-    <div class=info-page-header>Clash Royale Introductions</div>
+    <div class=info-page-header>Intro to Clash Royale</div>
     <div class=info-page-introduction>This website is full of Clash Royale decks, tactics, and general information. This site is guaranteed to help people with or without legendaries to get to that next arena. Below are a couple links to help you with Clash Royale.</div>
     <div class="pic-table">
-         <a href="https://www.lacity.org/" target="_blank">
+         <a href="http://clashroyalearena.com/deck-building"https://www.lacity.org/" target="_blank">
         <div class="pic" id="p1">
             <p>Decks</p>
         </div>
         </a>
-        <a href="https://www.lacity.org/" target="_blank">
+        <a href="http://clashroyalearena.com/guides" target="_blank">
         <div class="pic" id="p2">
-            <p>Tactics</p>
+            <p>Guides</p>
         </div>
         <a/>
-        <a href="https://www.lacity.org/" target="_blank">
-        <div class="pic" id="p3"><p>General Information</p></div>
+        <a href="http://clashroyalearena.com/tips" target="_blank">
+        <div class="pic" id="p3"><p>Tips</p></div>
+        <a/>
+        <a href="http://clashroyalearena.com/cards" target="_blank">
+        <div class="pic" id="p4"><p>Cards</p></div>
         <a/>
     </div>
 </div>
